@@ -1,7 +1,7 @@
 # Simulation-of-tungsten-impurities-in-a-tokamak-plasma
 This is a program that simulates tungsten impurities at a tokamak plasma edge. It can be modified to simulate other elements and particles, as well as any 2D electric field with a constant magnetic field in the z direction. Further modifications would allow for full 3D electromagnetic fields and particle movements.
 
-This program is derived from the work of Mikael K. T. Jensen & Nicolai L. Jensen which is based on the previous work of Christian W. Rasmussen.
+This program is derived from the work of Mikael K. T. Jensen & Nicolai L. Jensen. If you use the program please cite "Impact of Heavy Ions on Edge Energy Loss in Fusion Plasmas" by Mikael Kim Tvermark Jensen and Nicolai Lomstein Jensen, 2025, DTU Department of Physics. You can find the entry in the DTU database for the bachelor theis at: https://findit.dtu.dk/en/catalog/68783f6865ea2c01029a58e1. 
 
 The repository contains 3 programs. The field generator, that loads plasma field data and sets up interpolators; the animation function, that takes partciles data and electron density field as input to prduce an animation of the particles' motion; and the simulation program itself, that also contain a test run, that can simulate the particles' motion on field data of much smaller size. The test simulation uses much less memory during execution and serves to show how to program works. The simulation in the test itself is identical. It is only the background fields that have a much smaller resolution.
 
